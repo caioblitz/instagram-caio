@@ -23,7 +23,13 @@
         justify-content: center;
         width: 60%;
         height: 100vh;
-        
+    }
 
-
+    .instagram-phone {
+        display: flex;
+        align-items: center;
+        width: 50%;        
+    }
+    .intagram-phone img {
+        height: 50rem;
     }
