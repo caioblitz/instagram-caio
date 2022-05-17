@@ -20,7 +20,7 @@
     .instagram-wrapper{
         display: flex;
         align-items: center;
-        justify-content: center;
+        justify-content: start;
         width: 60%;
         height: 100vh;
     }
@@ -28,8 +28,17 @@
     .instagram-phone {
         display: flex;
         align-items: center;
+        justify-content: center;
         width: 50%;        
     }
-    .intagram-phone img {
+
+    .instagram-phone img {
         height: 50rem;
+    }
+
+    .instagram-continue {
+        display:flex;
+        align-items: center;
+        justify-content: space-around;
+
     }
